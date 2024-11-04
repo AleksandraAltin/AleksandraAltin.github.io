@@ -17,7 +17,7 @@ $mail->SMTPSecure = 'ssl'; // Используем SSL
 $mail->Port = 465; // Порт 465 для SSL
 
 $mail->setFrom('benimadimmucize1@gmail.com', 'Mucize'); // От кого письмо
-$mail->addAddress('info.mevv.film@gmail.com');  // Кому отправляем
+$mail->addAddress('Bam@mevvfilm.com');  // Кому отправляем
 
 $mail->isHTML(true); // Отправка письма в HTML-формате
 $mail->Subject = 'BAM';
